@@ -1,0 +1,50 @@
+---
+title: "Swiftkey Capstone Presentation"
+author: "Jeet Tanna"
+date: "8/1/2020"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Introduction
+
+This is a capstone project where the goal is to predict the next word when a phrase has been input by the user. The project is a Swiftkey project where the data is provided by Swiftkey. This is the last project of the Johns Hopkins Data Science Specialization.
+
+The training data is formed by the data in the News, Twitter and Blog datasets that have a large chunk of text found on the Internet
+
+**The data can be downloaded through this link:**
+[https://d396qusza40orc.cloudfront.net/dsscapstone/dataset/Coursera-SwiftKey.zip](https://d396qusza40orc.cloudfront.net/dsscapstone/dataset/Coursera-SwiftKey.zip)
+
+## Process followed:
+
+- This project involved the use of Natural Language Processing so it involved a lot of learning through Youtube videos and reading to understand the algorithms to implement in the project,
+- First an NGram had to be made that could produce unigrams, bigrams and trigrams. 
+- The NGram then had to be tokenized so it could predict the next word when a phrase is input.
+
+## Shiny App
+
+The Shiny App can be found here
+[https://jeettanna.shinyapps.io/swiftkey_capstone/](https://jeettanna.shinyapps.io/swiftkey_capstone/)
+
+**The user can input in a phrase and the predicted word will be displayed**
+
+## Milestone Reports and Code
+
+The links to Github Repository for the code and milestone reports can be found here:
+- Github Repository [https://github.com/JeetTanna/Swiftkey-Capstone-Project](https://github.com/JeetTanna/Swiftkey-Capstone-Project)
+
+- Milestone Report [https://github.com/JeetTanna/Swiftkey-Capstone-Project/blob/master/Milestone_Report.pdf](https://github.com/JeetTanna/Swiftkey-Capstone-Project/blob/master/Milestone_Report.pdf)
+
+- Shiny App Code:
+   [server.R](https://github.com/JeetTanna/Swiftkey-Capstone-Project/blob/master/server.R)
+   
+   [ui.R](https://github.com/JeetTanna/Swiftkey-Capstone-Project/blob/master/ui.R)
+   
+- **Thank You**
+   
+
+
+
